@@ -20,7 +20,7 @@
     src: url('../fonts/rockwell-regular.eot');
     src: url('../fonts/rockwell-regular.eot?#iefix') format('embedded-opentype'),
          url('../fonts/rockwell-regular.woff') format('woff'),
-         url('../fonts/rockwell-regular.ttf') format('truetype'),
+         url('../fonts/rockwell-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
