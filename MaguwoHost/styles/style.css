@@ -1,26 +1,23 @@
 /*begin main styles*/
 @import url("fonts.css");
+
 *{
 	box-sizing:border-box;
+  padding:0;
+  margin:0;
 }
 
 body{
-	margin:147px 0 0 0;
-	font-family:'Open Sans',sans-serif;
+	font-family:"Rockwell";
 	font-size:14px;
 	color:#424242;
-}
-
-h1,h2,h3,h4,h5,h6{
-	font-family:'Rockwell',serif;
-  font-weight: 200;
-  padding: 0;
 }
 
 h2 {
   font-size: 48px;
   color:#fff;
-  margin: 0 0 28px 0;
+  font-weight: 200;
+  padding: 0 0 28px 0;
 }
 a:hover{
 	text-decoration:none;
@@ -29,9 +26,9 @@ a:hover{
 .container{
 	width:1170px;
 	margin:0 auto;
-	padding:0;
 }
 
+.screen .container:after,
 .row:after,
 .header-number:after,
 .container:after{
@@ -45,17 +42,8 @@ a:hover{
 }
 
 .row{
-	margin:0 -15px;
+	margin:0;
 }
-
-.col{
-	float:left;
-	width:calc(50% - 30px);
-	height:50px;
-	background-color:#000;
-	margin:0 15px;
-}
-
 /*end main styles*/
 
 /*begin header*/
@@ -70,23 +58,20 @@ a:hover{
 }
 
 .header .logo-content {
- padding: 0;
- margin: 0;
+ padding: 59px 0 56px 0;
  float: left;
 }
 
 .header .logo{
-    float: left;
-    margin: 64px 106px 60px 0;
+  padding: 0 0 0 20px;
 }
 
 .header .logo b {
-   font-family: "Rockwell";
-   font-weight: bold;
+  font-weight: bold;
+  line-height: 29px;
 }
 
 .header .logo-img {
-	margin: 59px 19px 57px 0;
 	width: 26px;
 	height: 32px;
 	float:left;
@@ -96,11 +81,10 @@ a:hover{
 
 .header a {
 	text-decoration:none;
-    font-size:30px;
-    font-family:"Rockwell";
-    font-weight: lighter;
-    color:#202242;
-    line-height:0.8;
+  font-size:30px;
+  font-weight: lighter;
+  color:#202242;
+  line-height:30px;
 }
 
 .header a:hover,
@@ -110,16 +94,9 @@ a:hover{
   color:#202242;
 }
 
-.header-nav {
-	float: left;
-	margin: 71px 0 57px 0;
-}
-
 .header .nav{
 	float:left;
-	padding:0;
-	margin:0;
-	line-height:0;
+  margin: 70px 51px 57px 114px;
 }
 
 .header .nav li{
@@ -146,7 +123,6 @@ a:hover{
 
 .header .nav li a:hover, a:focus{
 	color:#ffe13e;
-  font-weight: bold;
 }
 
 .header .nav li a:active{
@@ -156,24 +132,21 @@ a:hover{
 
 .header-contact {
   float: right;
-  margin: 36px 0 30px 0;
 }
 
  .big-border {
   border-left: 1px solid #ebebeb;
-  margin: 0;
-  padding: 37px 0 0 46px;
+  padding: 39px 0 0 48px;
 }
 
 .small-border {
   border-left: 1px solid #babbc4;
-  height: 34px;
-  margin: 4px 0 0 20px;
+  height: 35px;
+  margin: 4px 0 0 0;
 }
 
 .help-number {
   display: block;
-  padding: 3px 9px 0 1px;
   font-family:'Raleway',sans-serif;
   font-weight: 600;
   font-size: 12px;
@@ -190,8 +163,8 @@ a:hover{
   font-family: "Raleway";
   color:#202242;
   font-weight: 600;
-  line-height: 36px;
-  width: 124px;
+  line-height: 39px;
+  width: 121px;
   border: 1px solid #ffe13e;
   background: #ffe13e;
   -webkit-font-smoothing: antialiased;
@@ -208,42 +181,54 @@ a:hover{
 
 .header-number .btn:hover, 
                .btn:focus
-{ line-height: 36px; }
+{ line-height: 39px; }
 
 .number {
   display: block;
   float: right;
-  font-size: 26px;
+  font-size: 24px;
   font-family: "Lato";
   font-weight: bold;
   color:#202242;
-  padding: 0 0 0 17px;
+  padding: 0 0 0 19px;
 }
-
 /*end header*/
 
+/* Screen splash */
+
 .screen.__splash{
-    position:relative;
-	background:url(../images/splash__bg.jpg) no-repeat center 147px fixed;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-  height:calc(100vh - 147px);
+  position:relative;
+	background:url(../images/splash__bg.jpg) no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  min-height: 768px;
+  max-height: 980px;
 }
 
 .screen.__splash .container{
 	position:relative;
-	height:100%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9;
+}
+
+.screen.__splash .darken {
+  background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    z-index: 8;
 }
 
 .splash-web-info {
   position:absolute;
   text-align: center;
-  margin: 0 auto 0 auto;
-  padding: 0;
+  margin: 0 auto;
+  padding: 167px 0;
   height:100%;
-  width:calc(100% - 100px);
+  width:100%;
   background-size:cover;
 }
 
@@ -252,7 +237,7 @@ a:hover{
   font-weight: 300;
   font-size: 30px;
   color: #fff;
-  margin: 0 0 42px 0;
+  padding: 0 0 47px 0;
 }
 
 .icon-circle {
@@ -273,8 +258,8 @@ a:hover{
 }
 
 .splash-domain input[type=text]  {
-  padding: 0px 20px;
-  height: 57px;
+  padding: 2px 0 0 22px;
+  height: 55px;
   font-size: 18px;
   width: 270px;
   border: none;
@@ -314,8 +299,8 @@ select:focus {
   background-repeat: no-repeat;
   border: 0;
   border-radius: 0;
-  height: 57px;
-  padding: 0 40px 0 25px;
+  height: 55px;
+  padding: 0 47px 0 24px;
   /* for FF */
   -moz-appearance: none;
   text-indent: 0.01px;
@@ -334,13 +319,22 @@ select:focus {
   font-size: 18px;
 }
 
+.splash-domain select.input-select::after {
+  content: ''; 
+  position: absolute;
+    background: green;
+    left: 20px; bottom: -11px;
+    width: 20px; height: 20px;
+   transform: rotate(45deg); /* Поворачиваем на 45º */
+    -webkit-transform: rotate(45deg);
+    z-index: 9999;
+}
+
 .btn-domain {
   color:#fff;
   font-size: 14px;
   width: 160px;
-  line-height: 55px;
-  padding: 0;
-  margin:0;
+  line-height: 53px;
   outline: none;
   border-left:1px solid #fff;
 }
@@ -348,6 +342,109 @@ select:focus {
 .btn-domain:hover,
 .btn-domain:focus {
   border: none;
-  line-height: 57px;
+  line-height: 55px;
   transition: none;
 }
+
+/* Screen service */
+
+.screen.__service{
+  position:relative;
+  min-height: 652px;
+  max-height: 780px;
+}
+
+.screen.__service .container{
+  position:relative;
+  height:100%;
+  z-index: 9;
+}
+
+.screen.__service .color {
+  position: absolute;
+  top: 0; bottom: 0;
+  z-index: 5;
+  width: 50%;
+}
+
+.screen.__service .color.blue {
+  background: #202242;
+  left: 0;
+}
+.screen.__service .color.yellow {
+  background: #ffe13e;
+  right: 0;
+}
+
+.icon-webhost {
+  background: url(../images/icon__web.svg);
+  background-size: 168px 169px;
+  width: 168px;
+  height: 169px;
+}
+
+.text-com {
+  font-size: 134px;
+  line-height: 175px;
+  color: #202242;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.screen.__service .content {
+    padding: 90px 80px 0 70px;
+    width: 100%;
+}
+
+.screen.__service h2 {
+    padding: 40px 0 10px 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 36px;
+    color: #fff;
+}
+
+.screen.__service p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.screen.__service .btn-more {
+    display: inline-block;
+    border: 3px solid #fff;
+    color: #fff;
+    padding: 16px 53px;
+    margin: 31px 0;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 18px;
+    background: none;
+    transition: .5s ease;
+    
+}
+.screen.__service .btn-more:hover, .btn-more:focus {
+    background: rgba(255, 255,255, 0.3);
+}
+/* other */
+.col-6 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 33.33333333%;
+}
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.center {
+  text-align: center;
+}
+
