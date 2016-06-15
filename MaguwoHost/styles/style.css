@@ -1,5 +1,6 @@
 /*begin main styles*/
 @import url("fonts.css");
+<<<<<<< HEAD
 *{
 	box-sizing:border-box;
 }
@@ -7,10 +8,22 @@
 body{
 	margin:147px 0 0 0;
 	font-family:'Open Sans',sans-serif;
+=======
+
+*{
+	box-sizing:border-box;
+  padding:0;
+  margin:0;
+}
+
+body{
+	font-family:"Rockwell";
+>>>>>>> master
 	font-size:14px;
 	color:#424242;
 }
 
+<<<<<<< HEAD
 h1,h2,h3,h4,h5,h6{
 	font-family:'Rockwell',serif;
   font-weight: 200;
@@ -21,6 +34,13 @@ h2 {
   font-size: 48px;
   color:#fff;
   margin: 0 0 28px 0;
+=======
+h2 {
+  font-size: 48px;
+  color:#fff;
+  font-weight: 200;
+  padding: 0 0 28px 0;
+>>>>>>> master
 }
 a:hover{
 	text-decoration:none;
@@ -29,9 +49,15 @@ a:hover{
 .container{
 	width:1170px;
 	margin:0 auto;
+<<<<<<< HEAD
 	padding:0;
 }
 
+=======
+}
+
+.screen .container:after,
+>>>>>>> master
 .row:after,
 .header-number:after,
 .container:after{
@@ -45,6 +71,7 @@ a:hover{
 }
 
 .row{
+<<<<<<< HEAD
 	margin:0 -15px;
 }
 
@@ -56,6 +83,10 @@ a:hover{
 	margin:0 15px;
 }
 
+=======
+	margin:0;
+}
+>>>>>>> master
 /*end main styles*/
 
 /*begin header*/
@@ -70,12 +101,17 @@ a:hover{
 }
 
 .header .logo-content {
+<<<<<<< HEAD
  padding: 0;
  margin: 0;
+=======
+ padding: 59px 0 56px 0;
+>>>>>>> master
  float: left;
 }
 
 .header .logo{
+<<<<<<< HEAD
     float: left;
     margin: 64px 106px 60px 0;
 }
@@ -87,6 +123,17 @@ a:hover{
 
 .header .logo-img {
 	margin: 59px 19px 57px 0;
+=======
+  padding: 0 0 0 20px;
+}
+
+.header .logo b {
+  font-weight: bold;
+  line-height: 29px;
+}
+
+.header .logo-img {
+>>>>>>> master
 	width: 26px;
 	height: 32px;
 	float:left;
@@ -96,11 +143,18 @@ a:hover{
 
 .header a {
 	text-decoration:none;
+<<<<<<< HEAD
     font-size:30px;
     font-family:"Rockwell";
     font-weight: lighter;
     color:#202242;
     line-height:0.8;
+=======
+  font-size:30px;
+  font-weight: lighter;
+  color:#202242;
+  line-height:30px;
+>>>>>>> master
 }
 
 .header a:hover,
@@ -110,6 +164,7 @@ a:hover{
   color:#202242;
 }
 
+<<<<<<< HEAD
 .header-nav {
 	float: left;
 	margin: 71px 0 57px 0;
@@ -120,6 +175,11 @@ a:hover{
 	padding:0;
 	margin:0;
 	line-height:0;
+=======
+.header .nav{
+	float:left;
+  margin: 70px 51px 57px 114px;
+>>>>>>> master
 }
 
 .header .nav li{
@@ -155,24 +215,39 @@ a:hover{
 
 .header-contact {
   float: right;
+<<<<<<< HEAD
   margin: 36px 0 30px 0;
+=======
+>>>>>>> master
 }
 
  .big-border {
   border-left: 1px solid #ebebeb;
+<<<<<<< HEAD
   margin: 0;
   padding: 37px 0 0 46px;
+=======
+  padding: 39px 0 0 48px;
+>>>>>>> master
 }
 
 .small-border {
   border-left: 1px solid #babbc4;
+<<<<<<< HEAD
   height: 34px;
   margin: 4px 0 0 20px;
+=======
+  height: 35px;
+  margin: 4px 0 0 0;
+>>>>>>> master
 }
 
 .help-number {
   display: block;
+<<<<<<< HEAD
   padding: 3px 9px 0 1px;
+=======
+>>>>>>> master
   font-family:'Raleway',sans-serif;
   font-weight: 600;
   font-size: 12px;
@@ -189,8 +264,13 @@ a:hover{
   font-family: "Raleway";
   color:#202242;
   font-weight: 600;
+<<<<<<< HEAD
   line-height: 36px;
   width: 124px;
+=======
+  line-height: 39px;
+  width: 121px;
+>>>>>>> master
   border: 1px solid #ffe13e;
   background: #ffe13e;
   -webkit-font-smoothing: antialiased;
@@ -207,11 +287,16 @@ a:hover{
 
 .header-number .btn:hover, 
                .btn:focus
+<<<<<<< HEAD
 { line-height: 36px; }
+=======
+{ line-height: 39px; }
+>>>>>>> master
 
 .number {
   display: block;
   float: right;
+<<<<<<< HEAD
   font-size: 26px;
   font-family: "Lato";
   font-weight: bold;
@@ -219,45 +304,79 @@ a:hover{
   padding: 0 0 0 17px;
 }
 
+=======
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: bold;
+  color:#202242;
+  padding: 0 0 0 19px;
+}
+>>>>>>> master
 /*end header*/
 
 /* Screen splash */
 
 .screen.__splash{
   position:relative;
+<<<<<<< HEAD
   height:calc(100vh - 147px);
 	background:url(../images/splash__bg.jpg) no-repeat center 147px fixed;
+=======
+	background:url(../images/splash__bg.jpg) no-repeat center center fixed;
+>>>>>>> master
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
   background-size:cover;
+<<<<<<< HEAD
   min-height: 530px;
   max-height: 780px;
+=======
+  min-height: 768px;
+  max-height: 980px;
+>>>>>>> master
 }
 
 .screen.__splash .container{
 	position:relative;
+<<<<<<< HEAD
 	height:100%;
+=======
+  top: 50%;
+  transform: translateY(-50%);
+>>>>>>> master
   z-index: 9;
 }
 
 .screen.__splash .darken {
   background: rgba(0, 0, 0, 0.3);
     position: absolute;
+<<<<<<< HEAD
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
+=======
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+>>>>>>> master
     z-index: 8;
 }
 
 .splash-web-info {
   position:absolute;
   text-align: center;
+<<<<<<< HEAD
   margin: 0 auto 0 auto;
   padding: 20px 0;
   height:100%;
   width:calc(100% - 100px);
+=======
+  margin: 0 auto;
+  padding: 167px 0;
+  height:100%;
+  width:100%;
+>>>>>>> master
   background-size:cover;
 }
 
@@ -266,7 +385,11 @@ a:hover{
   font-weight: 300;
   font-size: 30px;
   color: #fff;
+<<<<<<< HEAD
   margin: 0 0 42px 0;
+=======
+  padding: 0 0 47px 0;
+>>>>>>> master
 }
 
 .icon-circle {
@@ -287,8 +410,13 @@ a:hover{
 }
 
 .splash-domain input[type=text]  {
+<<<<<<< HEAD
   padding: 0px 20px;
   height: 57px;
+=======
+  padding: 2px 0 0 22px;
+  height: 55px;
+>>>>>>> master
   font-size: 18px;
   width: 270px;
   border: none;
@@ -328,8 +456,13 @@ select:focus {
   background-repeat: no-repeat;
   border: 0;
   border-radius: 0;
+<<<<<<< HEAD
   height: 57px;
   padding: 0 40px 0 25px;
+=======
+  height: 55px;
+  padding: 0 47px 0 24px;
+>>>>>>> master
   /* for FF */
   -moz-appearance: none;
   text-indent: 0.01px;
@@ -348,13 +481,31 @@ select:focus {
   font-size: 18px;
 }
 
+<<<<<<< HEAD
+=======
+.splash-domain select.input-select::after {
+  content: ''; 
+  position: absolute;
+    background: green;
+    left: 20px; bottom: -11px;
+    width: 20px; height: 20px;
+   transform: rotate(45deg); /* Поворачиваем на 45º */
+    -webkit-transform: rotate(45deg);
+    z-index: 9999;
+}
+
+>>>>>>> master
 .btn-domain {
   color:#fff;
   font-size: 14px;
   width: 160px;
+<<<<<<< HEAD
   line-height: 55px;
   padding: 0;
   margin:0;
+=======
+  line-height: 53px;
+>>>>>>> master
   outline: none;
   border-left:1px solid #fff;
 }
@@ -362,7 +513,11 @@ select:focus {
 .btn-domain:hover,
 .btn-domain:focus {
   border: none;
+<<<<<<< HEAD
   line-height: 57px;
+=======
+  line-height: 55px;
+>>>>>>> master
   transition: none;
 }
 
@@ -370,7 +525,11 @@ select:focus {
 
 .screen.__service{
   position:relative;
+<<<<<<< HEAD
   min-height: 530px;
+=======
+  min-height: 652px;
+>>>>>>> master
   max-height: 780px;
 }
 
@@ -382,13 +541,20 @@ select:focus {
 
 .screen.__service .color {
   position: absolute;
+<<<<<<< HEAD
   top: 0;
   bottom: 0;
   z-index: 5;
+=======
+  top: 0; bottom: 0;
+  z-index: 5;
+  width: 50%;
+>>>>>>> master
 }
 
 .screen.__service .color.blue {
   background: #202242;
+<<<<<<< HEAD
     right: 50%;
     left: 0;
 }
@@ -396,6 +562,13 @@ select:focus {
   background: #ffe13e;
     right: 0;
     left: 50%;
+=======
+  left: 0;
+}
+.screen.__service .color.yellow {
+  background: #ffe13e;
+  right: 0;
+>>>>>>> master
 }
 
 .icon-webhost {
@@ -414,14 +587,24 @@ select:focus {
 }
 
 .screen.__service .content {
+<<<<<<< HEAD
     padding: 0px 35px 0px 85px;
+=======
+    padding: 90px 80px 0 70px;
+>>>>>>> master
     width: 100%;
 }
 
 .screen.__service h2 {
+<<<<<<< HEAD
     margin: 50px 0 0 0;
         font-family: 'Raleway', sans-serif;
     font-weight: bold;
+=======
+    padding: 40px 0 10px 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+>>>>>>> master
     font-size: 36px;
     color: #fff;
 }
@@ -431,18 +614,30 @@ select:focus {
     font-weight: normal;
     color: white;
     font-size: 14px;
+<<<<<<< HEAD
     line-height: 2;
+=======
+    line-height: 25px;
+>>>>>>> master
 }
 
 .screen.__service .btn-more {
     display: inline-block;
     border: 3px solid #fff;
     color: #fff;
+<<<<<<< HEAD
     padding: 16px 55px;
     margin: 20px 0;
     text-decoration: none;
     font-size: 14px;
     line-height: 14px;
+=======
+    padding: 16px 53px;
+    margin: 31px 0;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 18px;
+>>>>>>> master
     background: none;
     transition: .5s ease;
     
@@ -451,10 +646,20 @@ select:focus {
     background: rgba(255, 255,255, 0.3);
 }
 /* other */
+<<<<<<< HEAD
 .col-50 {
   width: 50%;
 }
 
+=======
+.col-6 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 33.33333333%;
+}
+>>>>>>> master
 .left {
   float: left;
 }
