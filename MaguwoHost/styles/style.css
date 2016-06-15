@@ -472,7 +472,7 @@ select:focus {
 }
 
 .screen.__features .icon.technology {
-    background: url('../images/icon_technology.png');
+    background: url('../images/icon__technology.png');
 }
 
 .screen.__features .icon.database {
