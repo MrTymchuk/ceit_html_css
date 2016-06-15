@@ -472,7 +472,7 @@ select:focus {
 }
 
 .screen.__features .icon.technology {
-    background: url('http://vintovoq.github.io/home_work/MaguwoHost/img/icon_technology.png');
+    background: url('../images/icon_technology.png');
 }
 
 .screen.__features .icon.database {
