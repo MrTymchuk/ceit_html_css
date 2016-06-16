@@ -209,8 +209,6 @@ a:hover{
   -moz-background-size:cover;
   -o-background-size:cover;
   background-size:cover;
-  height: 100vh;
-  min-height: 768px;
 }
 
 .screen.__splash .container{
