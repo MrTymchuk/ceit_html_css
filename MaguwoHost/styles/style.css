@@ -7,12 +7,9 @@
   margin:0;
 }
 
-<<<<<<< HEAD
 a {
   cursor: pointer;
 }
-=======
->>>>>>> origin/gh-pages
 body{
   font-family:"Rockwell";
   font-size:14px;
@@ -35,13 +32,8 @@ a:hover{
   position: relative;
   z-index: 9;
 }
-<<<<<<< HEAD
 
 .clearfix,
-=======
-
-
->>>>>>> origin/gh-pages
 .row:after,
 .header-number:after,
 .container:after{
@@ -71,11 +63,7 @@ a:hover{
 }
 
 .header .logo-content {
-<<<<<<< HEAD
  margin: 59px 0 56px 0;
-=======
- padding: 59px 0 56px 0;
->>>>>>> origin/gh-pages
  float: left;
 }
 
@@ -113,11 +101,7 @@ a:hover{
 
 .header .nav{
   float:left;
-<<<<<<< HEAD
   margin: 70px 0 57px 114px;
-=======
-  margin: 70px 51px 57px 114px;
->>>>>>> origin/gh-pages
 }
 
 .header .nav li{
@@ -153,30 +137,19 @@ a:hover{
 
 .header-contact {
   float: right;
-<<<<<<< HEAD
   margin: 39px 0 31px 0;
-=======
->>>>>>> origin/gh-pages
 }
 
  .big-border {
   border-left: 1px solid #ebebeb;
-<<<<<<< HEAD
   padding: 0 0 0 48px;
-=======
-  padding: 39px 0 0 48px;
->>>>>>> origin/gh-pages
 }
 
 .small-border {
   border-left: 1px solid #babbc4;
   height: 35px;
-<<<<<<< HEAD
   position: relative;
   top: 4px;
-=======
-  margin: 4px 0 0 0;
->>>>>>> origin/gh-pages
 }
 
 .help-number {
@@ -238,10 +211,6 @@ a:hover{
   -o-background-size:cover;
   background-size:cover;
   height: 100vh;
-<<<<<<< HEAD
-=======
-  width: 100%;
->>>>>>> origin/gh-pages
   min-height: 768px;
 }
 
@@ -352,7 +321,6 @@ select:focus {
   position: relative;
 }
 
-<<<<<<< HEAD
 .splash-domain .style-select::after {
   content: ''; 
   position: absolute;
@@ -360,17 +328,6 @@ select:focus {
   border-top: 8px solid #2d2d2d;
   right: 19px;
   top:25px;
-=======
-.splash-domain select.input-select::after {
-  content: ''; 
-  position: absolute;
-    background: green;
-    left: 20px; bottom: -11px;
-    width: 20px; height: 20px;
-   transform: rotate(45deg); /* ÃÅ¸ÃÂ¾ÃÂ²ÃÂ¾Ã‘â‚¬ÃÂ°Ã‘â€¡ÃÂ¸ÃÂ²ÃÂ°ÃÂµÃÂ¼ ÃÂ½ÃÂ° 45Ã‚Âº */
-    -webkit-transform: rotate(45deg);
-    z-index: 9999;
->>>>>>> origin/gh-pages
 }
 
 .btn-domain {
@@ -436,12 +393,7 @@ select:focus {
 }
 
 .screen.__service .content {
-<<<<<<< HEAD
     padding: 90px 80px 0 70px;s
-=======
-    padding: 90px 80px 0 70px;
-    width: 100%;
->>>>>>> origin/gh-pages
 }
 
 .screen.__service h2 {
@@ -481,7 +433,6 @@ select:focus {
 
 .screen.__features{
   position:relative;
-<<<<<<< HEAD
   background: url(../images/features__bg.jpg) no-repeat center center fixed;
   -webkit-background-size:cover;
   -moz-background-size:cover;
@@ -803,95 +754,6 @@ select:focus {
     margin: 0 0 0 10px;
 }
 
-=======
-  min-height: 700px;
-  max-height: 780px;
-}
-
-.screen.__features .container{
-  position:relative;
-  height:100%;
-  z-index: 9;
-}
-
-.screen.__features .bg {
-  position: absolute;
-  background: url(../images/features__bg.jpg) no-repeat center center fixed;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-  top: 0; bottom: 0;
-  left:0; right: 0;
-}
-
-.screen.__features .content{
-  padding: 0 10px 25px 10px;
-}
-
-.screen.__features .icon {
-    width: 128px;
-    height: 128px;
-    padding: 0 0 128px 0; /* Ñ€Ð°Ð¼ÐºÑƒ ÑƒÐ±Ñ€Ð°Ð² Ð¾_Ðž */
-}
-
-.screen.__features .line {
-    width: 70px;
-    border-bottom: 3px solid #8d8d99;
-    display: block;
-    margin: 0 auto;
-    padding: 29px 0 0 0;
-}
-
-.screen.__features .icon.support {
-    background: url('../images/icon__support.png');
-}
-
-.screen.__features .icon.technology {
-    background: url('../images/icon__technology.png');
-}
-
-.screen.__features .icon.database {
-    background: url('../images/icon__database.png');
-}
-
-.screen.__features .icon.monitoring {
-    background: url('../images/icon__monitoring.png');
-}
-.screen.__features h2 {
-  font-size: 48px;
-  line-height: 48px;
-  color: #202242;
-  padding: 60px 0 20px 0;
-}
-
-
-.screen.__features h3 {
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 30px;
-  color: #f4d320;
-  padding: 26px 0 20px 0;
-}
-
-.screen.__features p {
-  font-family: "Raleway";
-  font-size: 24px;
-  line-height: 24px;
-  color: #202242;
-  padding: 0 0 60px 0;
-}
-
-.screen.__features p.light-text {
- font-size: 14px;
- line-height: 24px;
- padding: 0 12px 0 6px;
-}
-/* other */
-.col-12 {
-  width: 100%;
-}
->>>>>>> origin/gh-pages
 .col-6 {
   width: 50%;
   float: left;
@@ -903,10 +765,7 @@ select:focus {
 }
 .col-3 {
   width: 25%;
-<<<<<<< HEAD
   float: left;
-=======
->>>>>>> origin/gh-pages
 }
 .left {
   float: left;
@@ -918,8 +777,4 @@ select:focus {
 
 .center {
   text-align: center;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/gh-pages
