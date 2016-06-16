@@ -214,10 +214,16 @@ a:hover{
 }
 
 .screen.__splash .container{
-  top: calc(50% + 60px);
-  transform: translateY(-50%);
+  height: calc(100vh + 147px);
+  min-height: 450px;
+  max-height: 940px;
 }
 
+.screen.__splash .full-cover {
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+}
 .screen.__splash .darken {
   background: rgba(0, 0, 0, 0.3);
     position: absolute;
