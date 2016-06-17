@@ -20,7 +20,7 @@ h2 {
   font-size: 48px;
   color:#fff;
   font-weight: 200;
-  padding: 0 0 28px 0;
+  padding: 90px 0 28px 0;
 }
 a:hover{
   text-decoration:none;
@@ -212,7 +212,7 @@ a:hover{
 }
 
 .screen.__splash .container{
-  height: calc(100vh + 147px);
+  height:100vh;
   min-height: 450px;
   max-height: 940px;
 }
@@ -521,15 +521,19 @@ select:focus {
 .screen.__clients .container{
   padding: 67px 0 60px 0;
 }
-.screen.__clients .client-logo{
-  width: 170px;
-}
+
 .screen.__clients h2{
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 36px;
   line-height: 36px;
   color: #202242;
+}
+
+.screen.__clients  a:hover, a:focus {
+  opacity: 0.7;
+  background: rgba(255,255,62,0.9);
+  transition: .5s ease;
 }
 
 .screen.__clients .client-descript{
@@ -547,11 +551,16 @@ select:focus {
   left: 250px; top:90px;
 }
 
+.screen.__clients .avatar:hover {
+  opacity: .9;
+  transition: .5s ease;
+}
+
 .screen.__clients p {
     font-family:'Raleway';
     font-size: 14px;
     color: #adadad;
-       text-align: justify;
+    text-align: justify;
 }
 
 .screen.__clients p.name {
