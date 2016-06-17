@@ -20,7 +20,7 @@ h2 {
   font-size: 48px;
   color:#fff;
   font-weight: 200;
-  padding: 90px 0 28px 0;
+  margin: 50px 0 28px 0;
 }
 a:hover{
   text-decoration:none;
@@ -175,6 +175,7 @@ a:hover{
   background: #ffe13e;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
 }
 
 .btn:hover,
@@ -213,7 +214,7 @@ a:hover{
 
 .screen.__splash .container{
   height:100vh;
-  min-height: 450px;
+  min-height: 600px;
   max-height: 940px;
 }
 
@@ -239,7 +240,7 @@ a:hover{
   font-weight: 300;
   font-size: 30px;
   color: #fff;
-  padding: 0 0 47px 0;
+  margin: 0 0 47px 0;
 }
 
 .icon-circle {
@@ -251,7 +252,7 @@ a:hover{
 }
 
 .splash-domain {
-  padding: 58px 0 0 0;
+  margin: 58px 0 0 0;
   font-size: 18px;
 }
 
@@ -274,6 +275,7 @@ input[type=text]:focus,
 select:focus {
   outline: none;
 }
+
 
 .splash-domain input[type=text]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #2d2d2d;
@@ -306,6 +308,7 @@ select:focus {
   border-radius: 0;
   height: 55px;
   padding: 0 47px 0 24px;
+  cursor: pointer;
   /* for FF */
   -moz-appearance: none;
   text-indent: 0.01px;
@@ -331,11 +334,7 @@ select:focus {
   width: 10px;
   border-right: 1px solid white;
   border-bottom: 1px solid white;
-  -webkit-transform:rotate(45deg);
-     -moz-transform:rotate(45deg);
-      -o-transform:rotate(45deg);
-      -ms-transform:rotate(45deg);
-          transform:rotate(45deg);
+  transform:rotate(45deg);
   right: 19px;
   top:20px;
 }
@@ -348,6 +347,7 @@ select:focus {
   outline: none;
   border-left: 1px solid #fff;
   padding: 20px 0 19px 0;
+  cursor: pointer;
 }
 
 .btn-domain:hover,
@@ -361,8 +361,6 @@ select:focus {
 
 .screen.__service{
   position:relative;
-  min-height: 652px;
-  max-height: 780px;
 }
 
 .screen.__service .container{
@@ -404,11 +402,12 @@ select:focus {
 }
 
 .screen.__service .content {
-    padding: 90px 80px 0 70px;s
+    margin: 90px 80px 40px 70px;
 }
 
 .screen.__service h2 {
-    padding: 40px 0 10px 0;
+    margin: 40px 0 10px 0;
+    padding: 0;
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
     font-size: 36px;
@@ -434,11 +433,10 @@ select:focus {
     line-height: 18px;
     background: none;
     transition: .5s ease;
-    
+
 }
 .screen.__service .btn-more:hover, .btn-more:focus {
     background: rgba(255, 255,255, .9);
-    transition: .5s ease;
     color: #202242;
 }
 
@@ -460,18 +458,30 @@ select:focus {
 
 .screen.__features .content{
   margin: 0 10px 85px 10px;
-}
-
-.screen.__features .icon {
-    width: 128px;
-    height: 128px;
-    display: inline-block;
       transition: .5s ease;
 }
 
-.screen.__features .icon:hover {
+.screen.__features .content:hover{
   opacity: 0.9;
-  margin: 10px 0 0 0;
+  margin: 15px 10px 70px 10px;
+}
+
+.screen.__features .icon {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 128px;
+    height: 128px;
+}
+
+.screen.__features .icon:after {
+    content: "";
+    position: absolute;
+    top: 162px;
+    left: 29px;
+    right: 29px;
+    height: 3px;
+    background: #8d8d99;
 }
 
 .screen.__features .line {
@@ -501,7 +511,7 @@ select:focus {
   font-size: 48px;
   line-height: 48px;
   color: #202242;
-  padding: 60px 0 20px 0;
+  margin: 60px 0 20px 0;
 }
 
 
@@ -510,7 +520,7 @@ select:focus {
   font-size: 30px;
   line-height: 30px;
   color: #f4d320;
-  margin: 26px 0 20px 0;
+  margin: 63px 0 20px 0;
 }
 
 .screen.__features p {
