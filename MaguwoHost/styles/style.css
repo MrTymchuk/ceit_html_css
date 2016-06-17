@@ -441,9 +441,9 @@ select:focus {
   position:relative;
   background: url(../images/features__bg.jpg) no-repeat center center fixed;
   -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
+     -moz-background-size:cover;
+       -o-background-size:cover;
+          background-size:cover;
 }
 
 .screen.__features .container{
@@ -461,6 +461,11 @@ select:focus {
     display: inline-block;
 }
 
+.screen.__features .icon:hover {
+  opacity: 0.9;
+  transition: .5s ease;
+  margin: 10px 0 0 0;
+}
 
 .screen.__features .line {
     width: 70px;
