@@ -47,7 +47,7 @@ a:hover{
 }
 
 .row{
-  margin:0;
+    margin: 0 -20px 0 -20px;
 }
 /*end main styles*/
 
@@ -210,10 +210,15 @@ a:hover{
   -moz-background-size:cover;
   -o-background-size:cover;
   background-size:cover;
+  padding: 147px 0 0;
 }
 
+.screen.__splash h2 {
+  margin-top:0;
+}
 .screen.__splash .container{
-  height:100vh;
+  height: calc(100vh - 147px);
+  position: relative;
   min-height: 600px;
   max-height: 940px;
 }
@@ -221,8 +226,11 @@ a:hover{
 .screen.__splash .full-cover {
   top: 50%;
   transform: translateY(-50%);
-  position: relative;
+  position: absolute;
+  width: 100%;
+
 }
+
 .screen.__splash .darken {
   background: rgba(0, 0, 0, 0.3);
     position: absolute;
@@ -302,8 +310,6 @@ select:focus {
     font-size: 18px;
     line-height: 18px;
   -webkit-appearance: none;
-  background-color:#ffe13e;
-  background-repeat: no-repeat;
   border: 0;
   border-radius: 0;
   height: 55px;
@@ -315,6 +321,9 @@ select:focus {
   text-overflow: '';
   /* for IE */
   -ms-appearance: none;
+  z-index: 2;
+  position: relative;
+  background: none;
 }
 
 .icon-down {
@@ -325,6 +334,7 @@ select:focus {
 .splash-domain .style-select {
   float: left;
   position: relative;
+  background: #ffe13e;
 }
 
 .splash-domain .style-select::after {
@@ -337,6 +347,7 @@ select:focus {
   transform:rotate(45deg);
   right: 19px;
   top:20px;
+  z-index: 1;
 }
 
 .btn-domain {
@@ -461,10 +472,6 @@ select:focus {
       transition: .5s ease;
 }
 
-.screen.__features .content:hover{
-  opacity: 0.9;
-  margin: 15px 10px 70px 10px;
-}
 
 .screen.__features .icon {
     position: relative;
@@ -541,7 +548,7 @@ select:focus {
 .screen.__clients{
 }
 .screen.__clients .container{
-  padding: 67px 0 60px 0;
+  padding: 67px 0 0 0;
 }
 
 .screen.__clients h2{
@@ -550,6 +557,7 @@ select:focus {
   font-size: 36px;
   line-height: 36px;
   color: #202242;
+  margin:0 0 28px 0;
 }
 
 .screen.__clients  a{
@@ -568,11 +576,15 @@ select:focus {
   background: #f5f3f3;
   position: relative;
   padding: 20px 15px;
+  margin: 0 0 50px 0;
 }
 
 .screen.__clients .avatar {
   position: absolute;
-  left: 250px; top:90px;
+  overflow: hidden;
+  right: 20px; bottom: -60px;
+  border: 6px solid #e7e8eb;
+  border-radius: 100%;
   transition: .5s ease;
 }
 
@@ -588,7 +600,7 @@ select:focus {
 }
 
 .screen.__clients p.name {
-  margin: 15px 0 0 0;
+  margin: 20px 0 0 15px;
   font-weight: bold;
   color: #696969;
 }
@@ -641,7 +653,6 @@ select:focus {
     font-size: 18px;
     line-height: 18px;
     transition: .5s ease;
-    margin: 0 0 0 75px;
     
 }
 .screen.__pricing .btn-more:hover, .btn-more:focus {
@@ -671,12 +682,18 @@ select:focus {
     z-index: 50;
 }
 
-.footer p {
+.footer p, li.nav {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 18px;
   color: #fff;
 }
+
+.footer li.nav {
+  border: none;
+  margin: 0 0 10px 0;
+}
+
 
 .footer .icon-maps {
   background: url(../images/footer__maps.svg) no-repeat;
