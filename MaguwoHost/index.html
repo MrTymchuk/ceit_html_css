@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>MaguwoHost - Tymchuk FE</title>
+	<title>Tymchuk FE - MaguwoHost</title>
 	<link rel="stylesheet" href="styles/normalize.css">
 	<link rel="shortcut icon" href="images/icon__server.png">
+	<link rel="stylesheet" href="styles/bootstrap.min.css">
 	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/font-awesome.min.css">
+	<link rel="stylesheet" href="styles/media.css">
 </head>
 <body>
-<!--START HEADER-->
+
 	<div class="header">
 		<div class="container">
 		<a class="logo-content" href="#">
@@ -22,9 +25,8 @@
 					<li><a href="#">Domain</a></li>
 					<li><a href="#">Hosting</a></li>
 				</ul>	
-
-			<div class="header-contact big-border">
-             <span class="help-number">Do you need help ? Just Email, Live chat or Call us</span>
+			<div class="header-contact big-border hidden-sm hidden-xs">
+             <p class="help-number">Do you need help ? Just Email, Live chat or Call us</p>
              <div class="header-number">
 	             <button class="btn">Live Chat</button>
 				 <span class="number small-border">6284-6534</span>
@@ -32,46 +34,46 @@
 			</div>
 		</div>
 	</div>
-<!--END HEADER-->
 
-<!--START SCREEN SPLASH-->
 	<div class="screen __splash">
 		<div class="container">
+		  <div class="full-cover">
 		<div class="splash-web-info">
 			<h2>Just a Proffesional Web Hosting Services</h2>
 			<p>modern  -  fast  -  reliable</p>
-			<object class="icon-circle" type="image/svg+xml"></object>
+			<div class="icon-circle"></div>
 			<div class="splash-domain">
            <form action="#" method="post">
            <input class="input-text" type="text" placeholder="Your Domain Name ...">
+              <div class="style-select">
                 <select class="input-select">
                   <option>.com</option>
                   <option>.net</option>
                   <option>.tv</option>
                 </select>
+              </div>
            <input class="btn btn-domain" type="submit" value="Check Availability">
            </form>
             </div>
 		</div>
 		</div>
-		<div class="screen __splash darken"></div>
+		</div>
+		<div class="darken"></div>
 	</div>
-<!--END SCREEN SPLASH-->
 
-<!--START SCREEN SERVICE-->
-	<div class="screen __service">
-		<div class="container">
+<div class="screen __service">
+	<div class="container">
          <div class="row">
-         <div class="col-6 left">
+         <div class="col-xs-12 col-sm-12 col-md-6">
          <div class="content center">
-         				<object class="icon-webhost" type="image/svg+xml"></object>
+         				<div class="icon-webhost"></div>
 						<h2>#1 Webhost Services</h2>
 						<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
 						<a href="#" class="btn-more">More</a>
 						</div>
 		 </div>
 
-		 <div class="col-6 right">
+		 <div class="col-xs-12 col-sm-12 col-md-6">
 		 <div class="content center">
          				<span class="text-com">.com</span>
 						<h2>#1 Domain Services</h2>
@@ -79,15 +81,165 @@
 						<a href="#" class="btn-more">More</a>
 		</div>
 		 </div>
+    </div>
+	</div>
+<div class="screen __service color blue hidden-sm"></div>
+<div class="screen __service color yellow hidden-sm"></div>
+</div>
 
-         </div>
-		  </div>
+<div class="screen __features">
+		<div class="container">
+			<div class="row">
+			<div class="col-md-12"> 
+				<div class="content center">
+				<h2>Our Features</h2>
+				<p>Our Best Features</p>
+				</div>
+			</div>
 
-	<div class="screen __service color blue"></div>
-	<div class="screen __service color yellow"></div>
+			<div class="col-md-3">
+				<div class="content center">
+					<div class="icon support"></div>
+					<h3>Live Support</h3>
+					<p class="light-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="content center">
+					<div class="icon technology"></div>
+					<h3>Cloud Technology</h3>
+					<p class="light-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="content center">
+					<div class="icon database"></div>
+					<h3>Hi Tech Database</h3>
+					<p class="light-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="content center">
+					<div class="icon monitoring"></div>
+					<h3>Live Monitoring</h3>
+					<p class="light-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+				</div>
+			</div>
+
+			</div>
+		</div>
+</div>
+
+<div class="screen __clients">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h2>Our Clients</h2>
+					<p class="client-descript">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum.</p>
+				</div>
+				<div class="col-md-8">
+						<div class="col-md-3">
+								<a href="#"><img src="images/client-logo-1.png" alt="client-logo-1"/></a>
+						</div>
+						<div class="col-md-3">
+								<a href="#"><img src="images/client-logo-2.png" alt="client-logo-2"/></a>
+						</div>
+						<div class="col-md-3">
+								<a href="#"><img src="images/client-logo-3.png" alt="client-logo-3"/></a>
+						</div>
+						<div class="col-md-3">
+								<a href="#"><img src="images/client-logo-4.png" alt="client-logo-4"/></a>
+						</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+				<div class="content">
+					<p class="comments">“ This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. ”</p>
+					<p class="name">-Anna</p>
+					<img class="avatar" src="images/client-answer.png"/>
+			    </div>
+				</div>
+				<div class="col-md-4">
+				<div class="content">
+					<p class="comments">“ This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. ”</p>
+					<p class="name">-Anna</p>
+					<img class="avatar" src="images/client-answer.png"/>
+				</div>
+				</div>
+				<div class="col-md-4">
+				<div class="content">
+					<p class="comments">“ This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. ”</p>
+					<p class="name">-Anna</p>
+					<img class="avatar" src="images/client-answer.png"/>
+				</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
-<!--END SCREEN SERVICE-->
+<div class="screen __pricing">
+	<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-8">
+				    <div class="content">
+					<h3>Do you want to view Plans & Pricing ?</h3>
+					<p>Follow the button in the right section.</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 center">
+					<a href="#" class="btn-more">Plans & Pricing</a>
+				</div>
+			</div>
+	</div>
+</div>
+
+<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">&#160;</div>
+				<div class="col-md-3">
+					<div class="maps-content">
+				    	<div class="icon-maps"></div>
+						<p>Yogyakarta, Indonesia 55282</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+				<div class="content">
+					<div class="footer-nav">
+						 <ul>
+						 	<li class="nav">Navigation</li>
+						 	<li><a href="#">Home</a></li>
+						 	<li><a href="#">About</a></li>
+						 	<li><a href="#">Domain</a></li>
+						 	<li><a href="#">Hosting</a></li>
+						 	<li><a href="#">Contact</a></li>
+						 </ul>
+					</div>
+					<div class="social">
+						<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+					</div>
+
+				    <a class="top" href="#">Back to Top</a>
+				</div>
+				</div>
+			</div>
+			<div class="row">
+			<div class="col-md-12">
+				<div class="copyright">
+				<i class="icon-circle"></i>
+				<p class="copy">Copyright 2014 Maguwohost by FikriStudio</p>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="bg"></div>
+</div>
 
 </body>
 </html>
