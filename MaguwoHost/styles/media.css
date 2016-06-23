@@ -1,0 +1,56 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (extra small devices, 468x and up) */
+@media screen and (max-device-width: 468px) {
+.header .nav{
+  float:left;
+    margin: 30px 0 10px 20px;
+}
+.header .logo-content {
+ margin: 20px 0 20px 0;
+ float: left;
+}
+
+.screen.__service .color {
+  width: 100%;
+}
+
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-device-width: 768px) {
+.header .nav{
+  float:left;
+ margin: 30px 0 30px 20px;
+}
+.header .logo-content {
+margin: 20px 0 20px 20px;
+ float: left;
+}
+
+.screen.__service .color {
+  width: 100%;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-device-width: 992px) { 
+.screen.__service .color {
+  position: absolute;
+  top: 0; bottom: 0;
+  z-index: 5;
+  width: 50%;
+}
+
+.header .nav{
+  float:left;
+  margin: 70px 0 57px 114px;
+}
+.header .logo-content {
+ margin: 59px 0 56px 0;
+ float: left;
+}
+}
+
