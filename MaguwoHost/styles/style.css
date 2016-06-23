@@ -26,9 +26,15 @@ a:hover{
   text-decoration:none;
 }
 
-.container{
+/*.container{
   width:1170px;
   margin:0 auto;
+  position: relative;
+  z-index: 9;
+}
+*/
+
+.container{
   position: relative;
   z-index: 9;
 }
@@ -141,7 +147,8 @@ a:hover{
 
  .big-border {
   border-left: 1px solid #ebebeb;
-  padding: 39px 0 31px 48px;
+  padding: 36px 0 31px 47px;
+  /*padding: 39px 0 31px 48px;*/
 }
 
 .small-border {
@@ -800,7 +807,7 @@ select:focus {
 }
 
 /* other */
-.col-12 {
+/*.col-12 {
   width: 100%;
 }
 
@@ -822,7 +829,7 @@ select:focus {
 .col-3 {
   width: 25%;
   float: left;
-}
+}*/
 .left {
   float: left;
 }
