@@ -6,8 +6,10 @@ body {
     background: url(../images/logo.jpg) no-repeat;
     height: 300px;
     width: 300px;
+    -webkit-transition: .4s ease-in-out;
     transition: .4s ease-in-out;
     margin:0 auto;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     display: block;
     cursor: pointer;
@@ -17,6 +19,7 @@ body {
 	background: url(../images/dpripa.png) no-repeat;
 	border-radius: none;
 	transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
 }
 
 .rotate {
@@ -24,7 +27,8 @@ body {
 	height: 200px;
 	width: 200px;
 	display: block;
-	   animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 }
 
 h3 {
@@ -32,7 +36,8 @@ h3 {
 	color: #20512e;
 	font-size: 50px;
 	font-weight: 300;
-	animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 	text-transform: uppercase;
 }
 
@@ -40,7 +45,8 @@ h1 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #20512e;
 	font-size: 80px;
-	animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 	text-transform: uppercase;
 	text-align: center;
 }
