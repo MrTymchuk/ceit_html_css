@@ -13,7 +13,7 @@ h2 {font-size: 30px;}
 .screen.__splash p {font-size: 24px;}
 .icon-circle {background-size: 96px 105px;}
 .splash-domain {margin: 28px 0 0 0;}
-.splash-domain form {border: 10px solid #ddd;}
+.splash-domain form {border: 10px solid rgba(221, 221, 221, .5);}
 .splash-domain input[type=text], .splash-domain select.input-select, .splash-domain .style-select, .btn-domain 
  {height: 36px;font-size: 14px; line-height: 14px;width:100%;}
 .btn-domain  {padding: 0;border-left:0; border-top:1px solid white;}
@@ -26,7 +26,7 @@ h2 {font-size: 30px;}
 .screen.__service .color.yellow {background: #ffe13e; height:100%;}
 .screen.__service .color {position: absolute; top: 0; bottom: 0; right: 0; left: 0; z-index: 5; width: 100%;}
 .splash-domain select.input-select {padding: 0 35px 0 23px;}
-.screen.__clients a img {height: 95px; width: 130px; margin: 20px 0 0 0;}
+.screen.__clients a img {width: 100%; margin: 20px 0 0 0;}
 .screen.__clients .client-descript {padding: 0px 15px 15px 15px;}
 .screen.__clients .container {padding: 57px 0 0 0;}
 .screen.__clients h2, .screen.__pricing h3, .screen.__pricing p  {text-align: center;}
@@ -35,7 +35,6 @@ h2 {font-size: 30px;}
 .screen.__pricing h3 {font-size: 24px;}
 .screen.__pricing p {font-size: 14px; margin: 0 0 20px 0;}
 .screen.__pricing .btn-more {padding: 20px 28px; font-size: 16px; line-height: 16px;}
-.screen.__clients a img {height: 70px; width: 95px; margin: 20px 0 0 0;}
 .hidden-my, .footer .icon-maps, p.name-maps, .bg {display: none;}
 .footer li {text-align: center;}
 .footer a { margin:0 20px 0 20px;}
@@ -57,7 +56,7 @@ h2 {font-size: 30px;}
 .screen.__splash p {font-size: 24px;}
 .icon-circle {background-size: 96px 105px;}
 .splash-domain {margin: 28px 0 0 0;}
-.splash-domain form {border: 10px solid #ddd;}
+.splash-domain form {border: 10px solid rgba(221, 221, 221, .5);}
 .splash-domain input[type=text], .splash-domain select.input-select, .splash-domain .style-select,
 .btn-domain  {height: 36px;font-size: 14px; line-height: 14px;width:100%;}
 .btn-domain  {padding: 0;border-left:0; border-top:1px solid white;}
@@ -69,7 +68,7 @@ h2 {font-size: 30px;}
 .screen.__service .color.yellow {background: #ffe13e; height:100%;}
 .screen.__service .color {position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 5; width: 100%;}
 .splash-domain select.input-select {padding: 0 40px 0 24px;}
-.screen.__clients a img {height: 95px; width: 130px; margin: 20px 0 0 0;}
+.screen.__clients a img {width: 100%; margin: 20px 0 0 0;}
 .screen.__clients .client-descript {padding: 0px 15px 15px 15px;}
 .screen.__pricing .content {margin: 0 0 0 15px;}
 .screen.__pricing .btn-more {padding: 24px 40px;}
@@ -102,7 +101,7 @@ h2 {font-size: 38px;}
 .screen.__pricing .content {margin: 0 0 0 15px;}
 .screen.__pricing .btn-more {padding: 24px 40px;}
 p.name-maps {font-size: 14px;}
-.screen.__clients a img {height: 105px; width: 145px; margin: 20px 0 0 0;}
+.screen.__clients a img {width: 100%; margin: 20px 0 0 0;}
 .screen.__service .color.blue {background: #202242; height: calc(100% - 50%);}
 .screen.__service .color.yellow {background: #ffe13e; height:100%;}
 .screen.__service .color {position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 5; width: 100%;}
@@ -126,5 +125,5 @@ footer li.nav {border: none; margin: -8px 0 10px 0; font-size: 22px;}
 .screen.__pricing .content {margin: 0 0 0 60px;}
 .screen.__pricing .btn-more {padding: 31px 30px;}
 p.name-maps {font-size: 16px;}
-.screen.__clients a img {height: 95px; width: 130px; margin: 20px 0 0 0;}
+.screen.__clients a img {width: 100%; margin: 20px 0 0 0;}
 }
