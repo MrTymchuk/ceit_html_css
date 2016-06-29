@@ -273,7 +273,7 @@ a:hover{
 
 .splash-domain form {
   display: inline-block;
-  border: 17px solid #ddd;
+  border: 17px solid rgba(221, 221, 221, .5);
 }
 
 .splash-domain input[type=text]  {
