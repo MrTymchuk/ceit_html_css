@@ -808,30 +808,6 @@ select:focus {
   z-index: 51;
 }
 
-/* other */
-/*.col-md-12 {
-  width: 100%;
-}
-
-.col-md-8 {
-    width: calc(66.66666667% - 10px);
-    float: left;
-    margin: 0 0 0 10px;
-}
-
-.col-md-6 {
-  width: 50%;
-  float: left;
-}
-.col-md-4 {
-    width: calc(33.33333333% - 20px);
-    float: left;
-    margin: 0 10px 0 10px;
-}
-.col-md-3 {
-  width: 25%;
-  float: left;
-}*/
 .left {
   float: left;
 }
@@ -842,4 +818,38 @@ select:focus {
 
 .center {
   text-align: center;
+}
+
+/* Menu mobile*/
+.mod-menu {
+  overflow: hidden;
+}
+
+.navigation-xs {display: none;}
+
+.nav-xs {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-xs li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.nav-xs a {
+  color: #202242; 
+  font-family: 'Raleway', sans-serif;
+}
+
+.navigation-xs-touch {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 10px 0;
+    color: #202242;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
 }
