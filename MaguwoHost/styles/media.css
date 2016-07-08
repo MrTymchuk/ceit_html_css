@@ -4,8 +4,8 @@
 /* Small devices (extra small devices, 468x and up) */
 @media (min-width: 400px) and (max-width: 684px) {
 .header-contact{display: none;}
-.header .logo-content {margin: 34px 0 0 0;}
-.header .nav {margin: 10px 18px 20px 47px;}
+.header .logo-content {margin: 10px 0 10px 0;}
+.header .nav {display: none;}
 .header a, .header a:hover, .header a:focus {font-size: 20px; line-height: 20px;}
 .header .nav li a {font-size: 14px;}
 .screen.__splash {padding: 90px 0 0 0;}
@@ -42,15 +42,14 @@ h2 {font-size: 30px;}
 .footer .content { margin-top:2%; float: none;}
 .footer .social {padding: 15px 20px 0 0; text-align: right;}
 footer li.nav {border: none; margin: -8px 0 10px 0; font-size: 22px;}
+.dropdown_menu {display: block; float: right; margin-top: 3px; cursor: pointer;}
 }
 
 /* Small devices (768px) */
 @media (min-width: 685px) and (max-width: 768px) {
 .header-contact{display: none;}
-.header .logo-content {margin: 30px 0 30px 0;}
-.header .nav {margin: 40px 0 32px 28px;}
-.header a, .header a:hover, .header a:focus {font-size: 26px; line-height: 26px;}
-.header .nav li a {font-size: 14px;}
+.header .logo-content {margin: 10px 0 10px 0;}
+.header .nav {display: none;}
 .screen.__splash {padding: 70px 0 0 0;}
 h2 {font-size: 30px;}
 .screen.__splash p {font-size: 24px;}
@@ -83,6 +82,7 @@ h2 {font-size: 30px;}
 .footer .content { margin-top:2%; float: none;}
 .footer .social {padding: 15px 20px 0 0; text-align: right;}
 footer li.nav {border: none; margin: -8px 0 10px 0; font-size: 22px;}
+.dropdown_menu {display: block; float: right; margin-top: 3px; cursor: pointer;}
 }
 
 /* Medium devices (992px) */
@@ -112,6 +112,7 @@ p.name-maps {font-size: 14px;}
 .footer .content { margin-top:2%; float: none;}
 .footer .social {padding: 15px 20px 0 0; text-align: right;}
 footer li.nav {border: none; margin: -8px 0 10px 0; font-size: 22px;}
+.dropdown_menu {display:none;}
 }
 
 /* devices (992px) */
@@ -126,4 +127,8 @@ footer li.nav {border: none; margin: -8px 0 10px 0; font-size: 22px;}
 .screen.__pricing .btn-more {padding: 31px 30px;}
 p.name-maps {font-size: 16px;}
 .screen.__clients a img {width: 100%; margin: 20px 0 0 0;}
+.dropdown_menu {display:none;}
+}
+@media (min-width: 1199px) and (max-width: 2560px) { 
+.dropdown_menu {display:none;}
 }
